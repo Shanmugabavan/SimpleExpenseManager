@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 

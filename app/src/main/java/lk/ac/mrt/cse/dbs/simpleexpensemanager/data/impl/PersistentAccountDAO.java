@@ -7,16 +7,12 @@ import android.database.sqlite.SQLiteStatement;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
 public class PersistentAccountDAO implements AccountDAO {
     private SQLiteDatabase db;
