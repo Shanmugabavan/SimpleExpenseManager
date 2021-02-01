@@ -7,9 +7,9 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.exception.ExpenseManagerEx
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentAccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentTransactionDAO;
 
-public class PersistentDemoExpenseManager extends ExpenseManager {
+public class PersistentExpenseManager extends ExpenseManager {
     Context context;
-    public PersistentDemoExpenseManager(Context ctx)  {
+    public PersistentExpenseManager(Context ctx)  {
         context=ctx;
         try {
 
